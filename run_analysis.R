@@ -1,5 +1,10 @@
+#*******************************************************************************************************#
+# Coursera Course Getting and Cleaning Data - Course Project Week 3                                     #
+# progam: analysing of wearable computing    
+#*******************************************************************************************************#
 
 ## 1 - Merges the training and the test sets to create one data set.
+setwd("C:/Users/Gerhard/Desktop/MyCoursera/")
 
 # for Using some special data manipulation functions like Filter, Select, Join, Aggregate
 library(plyr)           # for filter and select function
@@ -51,4 +56,4 @@ Tidy_Data <- aggregate(Base_Data[,start_col:end_col],  by=data.frame(Subject=Bas
 Tidy_Data <- Tidy_Data %>% arrange(Subject, Activity_ID, Activity) %>% select(-(Activity_ID))
 
 # writing Result DataSet: Tidy_Data.txt (with separator as tabulator)
-write.table(Tidy_Data, file = "Tidy_Data_3.txt", sep="\t", row.names = FALSE)
+write.table(Tidy_Data, file = "C:/Users/Gerhard/Course_Project/Tidy_Data.txt", sep="\t", row.names = FALSE)
