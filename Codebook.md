@@ -1,4 +1,4 @@
-### CodeBook Tidy_Data 
+## CodeBook Tidy`_`Data 
 (based on data of Project Human Activity Recognition Using Smartphones) 
 
 ### Input DataSet Sources                                                                                                        
@@ -8,28 +8,31 @@ The Base Data for this result DataSet were provided by a project "Human Activity
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones                                                                      
 Purpose of the project - getting detailed information about human activities:                                                
 - Experiments with a group of 30 volunteers within an age range of 19-48 years.
-- Measurements of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) by a smartphone on     the waist.                         
+- Measurements of six activities     
+  (WALKING, WALKING`_`UPSTAIRS, WALKING`_`DOWNSTAIRS, SITTING, STANDING, LAYING) by a smartphone on the waist.                         
 - Recording of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz by embedded accelerometer and   gyroscope.                       
 - DataSet randomly partitioned into two sets: 70% for training data, 30% for test data                                           
 
 Used input data of the project: 
 - 'features.txt': List of all features.                                                                                          
-- 'activity_labels.txt': Links the class labels with their activity name.                                                        
-- 'train/X_train.txt': Training set.                                                                                             - 'train/y_train.txt': Training labels.                                                                                          
-- 'test/X_test.txt': Test set.                                                                                                   
-- 'test/y_test.txt': Test labels.
+- 'activity`_`labels.txt': Links the class labels with their activity name.                                                        
+- 'train/X`_`train.txt': Training set.                                                                                             
+- 'train/y`_`train.txt': Training labels.                                                                                          
+- 'test/X`_`test.txt': Test set.                                                                                                   
+- 'test/y`_`test.txt': Test labels.
 
 for further information see 
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip 
-see also features_info.txt and README.TXT
+see also features`_`info.txt and README.TXT
 
-### Result dataset "Tidy_Data.txt"
+### Result dataset "Tidy`_`Data.txt"
 This datafile has the following characteristics:                                                                                 
  - The result dataset consists of 68 variables and 180 observations                                                              
  - based on both - the training and the test sets of source files                                                                
  - tidy data set with the average of each variable for each activity and each subject.                                           
  - only the mean (mean())and standard deviation (std()) for each measurement.                                                    
- - with descriptive variable names                                                                                                                                                                                         
+ - with descriptive variable names 
+                                                                                                                                                                                          
 Some information about the 66 feature variables:                     
  - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.                        
  - Triaxial Angular velocity from the gyroscope.
@@ -40,317 +43,479 @@ Some information about the 66 feature variables:
  
 ### Result dataset variables in detail:
             
-No:  1  
+No.:  1  
 Variable:  Subject   
 Description:  person who performed the activity (30 test persons)  
 Datatype: Integer  
 Value Range:  1 .. 30   
 Unit:
                                                                                                                          
-No:  2  
+No.:  2  
 Variable:  Activity   
 Description:  names for 6 activities  
 Datatype:  Factor  
-Value Range:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING   
+Value Range:  WALKING, WALKING`_`UPSTAIRS, WALKING`_`DOWNSTAIRS, SITTING, STANDING, LAYING   
 Unit:                                                                               
                                                                                                                                              
-No:  3   
-Variable:  tBodyAcc_Mean_X   
+No.:  3   
+Variable:  tBodyAcc`_`Mean`_`X   
 Description:  mean value - body linear accelaration - X direction  
 Datatype:  Numeric  
-Value Range:  -1 ... 1   
+Value Range:  -1 .. 1   
 Unit:  g
 
-No: 4   
-Variable: tBodyAcc_Mean_Y    
+No.: 4   
+Variable: tBodyAcc`_`Mean`_`Y    
 Description: mean value - body linear accelaration - Y direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g   
                                                                                                                                                                                                                                                      
-No: 5   
-Variable:  tBodyAcc_Mean_Z   
+No.: 5   
+Variable:  tBodyAcc`_`Mean`_`Z   
 Description:  mean value - body linear accelaration - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g   
                                                                                                                                                                                                                                                      
-No: 6   
-Variable: tBodyAcc_Std_X    
+No.: 6   
+Variable: tBodyAcc`_`Std`_`X    
 Description: standard deviation -  body linear accelaration - X direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g
  
-No:7  	tBodyAcc_Std_Y                                                                                                                           
-Variable: tBodyAcc_Std_Y     
+No.:7  	                                                                                                                            
+Variable: tBodyAcc`_`Std`_`Y     
 Description:  standard deviation -  body linear accelaration - Y direction  
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
                                       
-No: 8   
-Variable: tBodyAcc_Std_Z    
+No.: 8   
+Variable: tBodyAcc`_`Std `_`Z    
 Description: standard deviation -  body linear accelaration - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-No: 9   
-Variable:  tGravityAcc_Mean_X    
+No.: 9   
+Variable:  tGravityAcc`_`Mean `_`X    
 Description: mean value - gravity linear accelaration  - X direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g                                                                                                                                              
 
-No: 10   
-Variable: tGravityAcc_Mean_Y    
+No.: 10   
+Variable: tGravityAcc`_`Mean`_`Y    
 Description: mean value - gravity linear accelaration  - Y direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
                                                                                                                                              
-No: 11   
-Variable: tGravityAcc_Mean_Z    
+No.: 11   
+Variable: tGravityAcc`_`Mean `_`Z    
 Description: mean value - gravity linear accelaration  - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g   
                                                                                                                                            
-No: 12   
-Variable: tGravityAcc_Std_X    
+No.: 12   
+Variable: tGravityAcc`_`Std`_`X    
 Description: standard deviation -  gravity linear accelaration  - X direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-No: 13   
-Variable: tGravityAcc_Std_Y    
+No.: 13   
+Variable: tGravityAcc`_`Std `_`Y    
 Description: standard deviation -  gravity linear accelaration  - Y direction    
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-No: 14   
-Variable: tGravityAcc_Std_Z     
+No.: 14   
+Variable: tGravityAcc`_`Std `_`Z     
 Description: standard deviation -  gravity linear accelaration  - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
     
-No: 15   
-Variable: tBodyAccJerk_Mean_X    
+No.: 15   
+Variable: tBodyAccJerk`_`Mean `_`X    
 Description: mean value - body linear accelaration jerk  - X direction  
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-No: 16   
-Variable: tBodyAccJerk_Mean_Y    
+No.: 16   
+Variable: tBodyAccJerk`_`Mean`_`Y    
 Description: mean value - body linear accelaration jerk  - Y direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
           
-No: 17   
-Variable: tBodyAccJerk_Mean_Z    
+No.: 17   
+Variable: tBodyAccJerk`_`Mean`_`Z    
 Description: mean value - body linear accelaration jerk  - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
-       
-                                                                                                                                             
-18 	tBodyAccJerk_Std_X
-	  standard deviation -  body linear accelaration jerk - X direction  Numeric  -1 ... 1  		g      
 
-No:    
-Variable:     
-Description:    
+No.: 18   
+Variable: tBodyAccJerk`_`Std`_`X     
+Description: standard deviation -  body linear accelaration jerk - X direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g        
-                                                                                                                                             
-19 	tBodyAccJerk_Std_Y
-    standard deviation -  body linear accelaration jerk - Y direction  Numeric  -1 ... 1   		g             
-                     
-                                                                                                                        No:    
-Variable:     
-Description:    
+
+No.: 19   
+Variable: tBodyAccJerk`_`Std`_`Y    
+Description: standard deviation -  body linear accelaration jerk - Y direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-20 	tBodyAccJerk_Std_Z        
-		standard deviation - body linear accelaration jerk - Z direction   Numeric  -1 ... 1   		g  
-
-           No:    
-Variable:     
-Description:    
+No.: 20   
+Variable: tBodyAccJerk`_`Std`_`Z    
+Description: standard deviation - body linear accelaration jerk - Z direction   
 Datatype: Numeric  
-Value Range: -1 ... 1    
+Value Range: -1 .. 1    
 Unit: g 
 
-                                                                                                                                             
-21 	tBodyGyro_Mean_X          
-		mean value - body angular velocity - X direction                   Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-22 	tBodyGyro_Mean_Y
-    mean value - body angular velocity - Y direction                   Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-23 	tBodyGyro_Mean_Z          
-		mean value - body angular velocity - Z direction                   Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-24 	tBodyGyro_Std_X           
-		standard deviation -  body angular velocity  - X direction         Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-25 	tBodyGyro_Std_Y           
-		standard deviation -  body angular velocity  - Y direction         Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-26 	tBodyGyro_Std_Z           
-		standard deviation -  body angular velocity  - Z direction         Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-27 	tBodyGyroJerk_Mean_X      
-		mean value - body angular velocity jerk  - X direction             Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-28 	tBodyGyroJerk_Mean_Y      
-		mean value - body angular velocity jerk  - Y direction             Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-29 	tBodyGyroJerk_Mean_Z      
-		mean value - body angular velocity jerk  - Z direction             Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-30 	tBodyGyroJerk_Std_X       
-		standard deviation -  body angular velocity jerk  - X direction    Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-31 	tBodyGyroJerk_Std_Y       
-		standard deviation -  body angular velocity jerk  - Y direction    Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-32 	tBodyGyroJerk_Std_Z       
-		standard deviation -  body angular velocity jerk  - Z direction    Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-33 	tBodyAccMag_Mean
-    mean value - "body linear accelaration                                                                         
-		(calculated by Euclidean norm)"  - total                      		 Numeric  -1 ... 1   		g             
-												                                                                                                               
-34 	tBodyAccMag_Std           
-		standard deviation -  "body linear accelaration                                                                
-		(calculated by Euclidean norm)"  - total             							 Numeric  -1 ... 1   		g             
-															                                                                                                               
-35 	tGravityAccMag_Mean       
-		mean value - "gravity linear accelaration                                                                      
-		(calculated by Euclidean norm)"  - total                    			 Numeric  -1 ... 1   		g             
-															                                                                                                               
-36 	tGravityAccMag_Std        
-		standard deviation -  "gravity linear accelaration                                                             
-		(calculated by Euclidean norm)"  - total           								 Numeric  -1 ... 1   		g             
-															                                                                                                               
-37 	tBodyAccJerkMag_Mean      
-		mean value - "body linear accelaration jerk                                                                    
-		(calculated by Euclidean norm)"  - total                  				 Numeric  -1 ... 1   		g             
-															                                                                                                               
-38 	tBodyAccJerkMag_Std
-		standard deviation -  "body linear accelaration jerk                                                           
-		(calculated by Euclidean norm)"  - total         									 Numeric  -1 ... 1   		g             
-															                                                                                                               
-39 	tBodyGyroMag_Mean         
-		mean value - "body angular velocity                                                                            
-		(calculated by Euclidean norm)"  - total                           Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-40 	tBodyGyroMag_Std          
-		standard deviation -  "body angular velocity                                                                   
-		(calculated by Euclidean norm)"  - total                 					 Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-41 	tBodyGyroJerkMag_Mean     
-		mean value - body angular velocity jerk  - total                   Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-42 	tBodyGyroJerkMag_Std      
-		standard deviation -  "body angular velocity jerk                                                              
-		(calculated by Euclidean norm)"  - total            							 Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-43 	fBodyAcc_Mean_X
-		mean value - fft body linear accelaration  - X direction           Numeric  -1 ... 1   		g             
-                                                                                                                                             
-44 	fBodyAcc_Mean_Y
-		mean value - fft body linear accelaration  - Y direction           Numeric  -1 ... 1   		g             
-                                                                                                                                             
-45 	fBodyAcc_Mean_Z           
-		mean value - fft body linear accelaration  - Z direction           Numeric  -1 ... 1   		g             
-                                                                                                                                             
-46 	fBodyAcc_Std_X
-		standard deviation -  fft body linear accelaration  - X direction  Numeric  -1 ... 1   		g             
-                                                                                                                                             
-47 	fBodyAcc_Std_Y
-		standard deviation -  fft body linear accelaration  - Y direction  Numeric  -1 ... 1   		g             
-                                                                                                                                             
-48 	fBodyAcc_Std_Z
-		standard deviation -  fft body linear accelaration  - Z direction  Numeric  -1 ... 1   		g             
-                                                                                                                                             
-49 	fBodyAccJerk_Mean_X       
-		mean value - fft body linear accelaration jerk  - X direction      Numeric  -1 ... 1   		g             
-                                                                                                                                             
-50 	fBodyAccJerk_Mean_Y
-		mean value - fft body linear accelaration jerk  - Y direction      Numeric  -1 ... 1   		g             
-                                                                                                                                             
-51 	fBodyAccJerk_Mean_Z       
-		mean value - fft body linear accelaration jerk  - Z direction      Numeric  -1 ... 1   		g             
-                                                                                                                                             
-52 	fBodyAccJerk_Std_X        
-		standard deviation -  fft body linear accelaration jerk  
-		- X direction 																										 Numeric  -1 ... 1   		g             
-                                                                                                                                             
-53 	fBodyAccJerk_Std_Y
-		standard deviation -  fft body linear accelaration jerk  
-		- Y direction 																										 Numeric  -1 ... 1   		g             
-                                                                                                                                             
-54 	fBodyAccJerk_Std_Z        
-		standard deviation -  fft body linear accelaration jerk  
-		- Z direction 																										 Numeric  -1 ... 1   		g             
-                                                                                                                                             
-55 	fBodyGyro_Mean_X          
-		mean value - fft body angular velocity  - X direction              Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-56 	fBodyGyro_Mean_Y          
-		mean value - fft body angular velocity  - Y direction              Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-57 	fBodyGyro_Mean_Z          
-		mean value - fft body angular velocity  - Z direction              Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-58 	fBodyGyro_Std_X           
-		standard deviation -  fft body angular velocity  - X direction     Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-59 	fBodyGyro_Std_Y           
-		standard deviation -  fft body angular velocity  - Y direction     Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-60 	fBodyGyro_Std_Z           
-		standard deviation -  fft body angular velocity  - Z direction     Numeric  -1 ... 1   		rad/sec       
-                                                                                                                                             
-61 	fBodyAccMag_Mean          
-		mean value - "fft body  linear accelaration                                                                    
-		(calculated by Euclidean norm)"  - total                 					 Numeric  -1 ... 1   		g             
-															                                                                                                               
-62 	fBodyAccMag_Std           
-		standard deviation -  "fft body  linear accelaration                                                           
-		(calculated by Euclidean norm)"  - total         									 Numeric  -1 ... 1   		g             
-															                                                                                                               
-63 	fBodyBodyAccJerkMag_Mean  
-		mean value - "fft body body  linear accelaration jerk                                                          
-		(calculated by Euclidean norm)"  - total        									 Numeric  -1 ... 1   		g             
-															                                                                                                               
-64 	fBodyBodyAccJerkMag_Std   
-		standard deviation -  "fft body body linear accelaration jerk                                                  
-		(calculated by Euclidean norm)"  - total 													 Numeric  -1 ... 1   		g             
-															                                                                                                               
-65 	fBodyBodyGyroMag_Mean     
-		mean value - "fft body body angular velocity                                                                   
-		(calculated by Euclidean norm)"  - total                 					 Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-66 	fBodyBodyGyroMag_Std      
-		standard deviation -  "fft body body angular velocity                                                          
-		(calculated by Euclidean norm)"  - total        									 Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-67 	fBodyBodyGyroJerkMag_Mean 
-		mean value - "fft body body angular velocity jerk                                                              
-		(calculated by Euclidean norm)"  - total            							 Numeric  -1 ... 1   		rad/sec       
-															                                                                                                               
-68 	fBodyBodyGyroJerkMag_Std  
-		standard deviation -  "fft body body angular velocity jerk                                                     
-		(calculated by Euclidean norm)"  - total   												 Numeric  -1 ... 1   		rad/sec       
+No.: 21   
+Variable: tBodyGyro`_`Mean`_`X    
+Description: mean value - body angular velocity - X direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 22   
+Variable: tBodyGyro`_`Mean`_`Y    
+Description: mean value - body angular velocity - Y direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 23   
+Variable: tBodyGyro`_`Mean`_`Z    
+Description: mean value - body angular velocity - Z direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 24   
+Variable: tBodyGyro`_`Std`_`X    
+Description: standard deviation -  body angular velocity  - X direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 25   
+Variable: tBodyGyro`_`Std`_`Y    
+Description: standard deviation -  body angular velocity  - Y direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 26   
+Variable: tBodyGyro`_`Std`_`Z    
+Description: standard deviation -  body angular velocity  - Z direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 27   
+Variable: tBodyGyroJerk`_`Mean`_`X     
+Description: mean value - body angular velocity jerk  - X direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 28   
+Variable: tBodyGyroJerk`_`Mean`_`Y     
+Description: mean value - body angular velocity jerk  - Y direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 29   
+Variable: tBodyGyroJerk`_`Mean`_`Z    
+Description: mean value - body angular velocity jerk  - Z direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 30   
+Variable: tBodyGyroJerk`_`Std`_`X    
+Description: standard deviation -  body angular velocity jerk  - X direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 31   
+Variable: tBodyGyroJerk`_`Std`_`Y    
+Description: standard deviation -  body angular velocity jerk  - Y direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 32   
+Variable: tBodyGyroJerk`_`Std`_`Z    
+Description:  standard deviation -  body angular velocity jerk  - Z direction  
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 33    
+Variable: tBodyAccMag`_`Mean     
+Description: mean value - body linear accelaration (calculated by Euclidean norm)  - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 34     
+Variable: tBodyAccMag`_`Std     
+Description: standard deviation - body linear accelaration (calculated by Euclidean norm)  - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 35    
+Variable: tGravityAccMag`_`Mean     
+Description: mean value - gravity linear accelaration (calculated by Euclidean norm) - total     
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 36    
+Variable: tGravityAccMag`_`Std     
+Description: standard deviation - gravity linear accelaration (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 37    
+Variable:  tBodyAccJerkMag`_`Mean    
+Description: mean value - body linear accelaration jerk (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 38     
+Variable: tBodyAccJerkMag`_`Std     
+Description: standard deviation - body linear accelaration jerk (calculated by Euclidean norm) - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 39    
+Variable: tBodyGyroMag`_`Mean     
+Description: mean value - body angular velocity (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 40    
+Variable: tBodyGyroMag`_`Std     
+Description: standard deviation - body angular velocity (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 41    
+Variable: tBodyGyroJerkMag`_`Mean     
+Description: mean value - body angular velocity jerk (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 42    
+Variable: tBodyGyroJerkMag`_`Std     
+Description: standard deviation -  "body angular velocity jerk (calculated by Euclidean norm)"  - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 43    
+Variable: fBodyAcc`_`Mean`_`X     
+Description: mean value - fft body linear accelaration  - X direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 44    
+Variable: fBodyAcc`_`Mean`_`Y     
+Description: mean value - fft body linear accelaration  - Y direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 45     
+Variable: fBodyAcc`_`Mean`_`Z     
+Description: mean value - fft body linear accelaration  - Z direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 46    
+Variable: fBodyAcc`_`Std`_`X     
+Description: standard deviation -  fft body linear accelaration  - X direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 47    
+Variable: fBodyAcc`_`Std`_`Y     
+Description: standard deviation -  fft body linear accelaration  - Y direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 48    
+Variable: fBodyAcc`_`Std`_`Z     
+Description: standard deviation -  fft body linear accelaration  - Z direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 49    
+Variable:  fBodyAccJerk`_`Mean`_`X    
+Description: mean value - fft body linear accelaration jerk  - X direction     
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 50    
+Variable: fBodyAccJerk`_`Mean`_`Y     
+Description: mean value - fft body linear accelaration jerk  - Y direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 51    
+Variable: fBodyAccJerk`_`Mean`_`Z     
+Description: mean value - fft body linear accelaration jerk  - Z direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 52    
+Variable: fBodyAccJerk`_`Std`_`X     
+Description: standard deviation -  fft body linear accelaration jerk     
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 53     
+Variable: fBodyAccJerk`_`Std`_`Y    
+Description: standard deviation -  fft body linear accelaration jerk - Y direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 54    
+Variable: fBodyAccJerk`_`Std`_`Z     
+Description: standard deviation -  fft body linear accelaration jerk - Z direction   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 55    
+Variable: fBodyGyro`_`Mean`_`X     
+Description: mean value - fft body angular velocity  - X direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 56    
+Variable: fBodyGyro`_`Mean`_`Y     
+Description: mean value - fft body angular velocity  - Y direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 57    
+Variable: fBodyGyro`_`Mean`_`Z     
+Description: mean value - fft body angular velocity  - Z direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+    
+No.: 58    
+Variable: fBodyGyro`_`Std`_`X     
+Description: standard deviation -  fft body angular velocity  - X direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 59    
+Variable: fBodyGyro`_`Std`_`Y     
+Description: standard deviation - fft body angular velocity - Y direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 60    
+Variable: fBodyGyro`_`Std`_`Z     
+Description: standard deviation -  fft body angular velocity  - Z direction    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 61    
+Variable: fBodyAccMag`_`Mean     
+Description: mean value - fft body linear accelaration (calculated by Euclidean norm) - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 62     
+Variable: fBodyAccMag`_`Std     
+Description: standard deviation - fft body linear accelaration (calculated by Euclidean norm) - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 63    
+Variable: fBodyBodyAccJerkMag`_`Mean      
+Description: mean value - fft body body linear accelaration jerk (calculated by Euclidean norm) - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 64    
+Variable: fBodyBodyAccJerkMag`_`Std      
+Description: standard deviation -  "fft body body linear accelaration jerk (calculated by Euclidean norm) - total   
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: g
+
+No.: 65     
+Variable: fBodyBodyGyroMag`_`Mean     
+Description: mean value - fft body body angular velocity (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 66    
+Variable: fBodyBodyGyroMag`_`Std     
+Description: standard deviation - fft body body angular velocity (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 67    
+Variable: fBodyBodyGyroJerkMag`_`Mean     
+Description:     
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+
+No.: 68     
+Variable: fBodyBodyGyroJerkMag`_`Std     
+Description: standard deviation - fft body body angular velocity jerk (calculated by Euclidean norm) - total    
+Datatype: Numeric  
+Value Range: -1 .. 1    
+Unit: rad/sec
+ 
