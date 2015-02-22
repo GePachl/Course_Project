@@ -32,11 +32,11 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 
 ### How the program run_analysis.R works.
 
-#### - Load libraries(plyr, dplyr, data.table) 
-- for using some specials data manipulation functions like  Filter, Select, Join, Aggregate
-#### - Merge the training and the test sets to create one base data set.
-- import and merge raw data sets to datasets "Subjects", "Activitie"s and "Data" by functions read.table and rbind. 
-#### - 	Extract only measurements on the mean and standard deviation for each feature. 
+#### - Load libraries(plyr, dplyr, data.table)  
+- for using some specials data manipulation functions like  Filter, Select, Join, Aggregate  
+#### - Merge the training and the test sets to create one base data set.  
+- import and merge raw data sets to datasets "Subjects", "Activitie"s and "Data" by functions read.table and rbind.  
+#### - Extract only measurements on the mean and standard deviation for each feature. 
 - read feature names for std() and mean() to find the relevant variables into data.frame "Features`_`Mean`_`Std" - by function grepl
 #### - Use descriptive activity names to name the activities ans subjects in the data set
 - merge (join) "Activities", "Activity_Names" by id and set variable names with names statement
