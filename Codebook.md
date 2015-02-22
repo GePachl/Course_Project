@@ -1,13 +1,13 @@
-### Codebook Tidy_Data (based on data of Project Human Activity Recognition Using Smartphones)                                                                     
+# Codebook Tidy_Data (based on data of Project Human Activity Recognition Using Smartphones)                                                                     
                                                                                                                                                                   
 ## Input DataSet Sources                                                                                                                                          
    =====================                                                                                                                                          
-The Base Data for this result DataSet were provided by a project "Human Activity Recognition Using Smartphones" - for detailed information use the following link:
+### The Base Data for this result DataSet were provided by a project "Human Activity Recognition Using Smartphones" - for detailed information use the following link:
                                                                                                                                                                   
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones                                                                               
                                                                                                                                                                   
-# Purpose of the project - getting detailed information about human activities:                                                                                   
-- Experiments with a group of 30 volunteers within an age range of 19-48 years.                                                                                   
+## Purpose of the project - getting detailed information about human activities:                                                                                   
+### - Experiments with a group of 30 volunteers within an age range of 19-48 years.                                                                                   
 - Measurements of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) by a smartphone on the waist.                         
 - Recording of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz by embedded accelerometer and gyroscope.                       
 - DataSet randomly partitioned into two sets: 70% for training data, 30% for test data                                                                            
