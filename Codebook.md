@@ -43,9 +43,9 @@ Some information about the 66 feature variables:
 No  Variable
     Description
     Datatype	
-    Value Range		
-    Unit             
-    Description                                                                                                                             
+    Value Range
+    Unit
+                                                                                                                         
 1   Subject		              					Integer	1 .. 30                                  
     person who performed the activity (30 test persons)	                                                                                   
                                                                                                                                              
