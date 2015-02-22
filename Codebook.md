@@ -1,36 +1,10 @@
 ## CodeBook Tidy`_`Data 
 
-### Input DataSet Sources                                                                                                        
-   
-The Base Data for this result DataSet were provided by a project "Human Activity Recognition Using Smartphones" - for detailed information use the following link:
-                                 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-                                                                      
-Purpose of the project - getting detailed information about human activities:                                                
-- Experiments with a group of 30 volunteers within an age range of 19-48 years.  
-- Measurements of six activities by a smartphone on the waist   
-   (WALKING, WALKING`_`UPSTAIRS, WALKING`_`DOWNSTAIRS, SITTING, STANDING, LAYING)                         
-- Recording of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz by embedded accelerometer and   gyroscope.                       
-- DataSet randomly partitioned into two sets: 70% for training data, 30% for test data                                           
-
-Used input data of the project:   
-- 'features.txt': List of all features.                                                                                          
-- 'activity`_`labels.txt': Links the class labels with their activity name.  
-- 'test/subject`_`test.txt': subject ids for the test set   
-- 'train/subject`_`train.txt': subject ids for the training set                                                      
-- 'train/X`_`train.txt': Training set.                                                                                             
-- 'train/y`_`train.txt': Training labels.                                                                                          
-- 'test/X`_`test.txt': Test set.                                                                                                   
-- 'test/y`_`test.txt': Test labels.
-
-for further information see 
-http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip   
-see also features`_`info.txt and README.TXT
-
 ### Result dataset "Tidy`_`Data.txt"
 This datafile has the following characteristics:                                                                                 
  - The result dataset consists of 68 variables and 180 observations                                                              
- - based on both - the training and the test sets of source files                                                                
+ - based on the training and the test sets of input raw files of project "Human Activity Recognition Using smartphones Data Set"   
+   (see also detailed information in README.md)                                                              
  - tidy data set with the average of each variable for each activity and each subject.                                           
  - only the mean (mean())and standard deviation (std()) for each measurement.                                                    
  - with descriptive variable names 
