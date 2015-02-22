@@ -49,5 +49,5 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 - further sort/clean and keep only name of activity as 'Activity' by chaining the arrange and select functions 
 
 #### Result: 'Tidy_Data.txt'
-- **transform result dataset with command write.table into file : Tidy_Data.txt (with separator as tabulator)** 
-- for detailed information about the variables take a look into the CodeBook ('Codebook.md') in the same folder.
+- **transform result dataset with command write.table into file : Tidy_Data.txt (with separator as tabulator)**   
+- for detailed information about the dataset and variables take a look into the CodeBook ('Codebook.md') in the same folder.
