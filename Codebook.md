@@ -1,7 +1,8 @@
-## Codebook Tidy_Data (based on data of Project Human Activity Recognition Using Smartphones) 
+## Codebook Tidy_Data 
+(based on data of Project Human Activity Recognition Using Smartphones) 
 
 ### Input DataSet Sources                                                                                                        
-    =====================                                                                                                                                          
+   
 The Base Data for this result DataSet were provided by a project "Human Activity Recognition Using Smartphones" - for detailed information use the following link:
                                  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones                                                                      
@@ -17,21 +18,24 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - 'train/X_train.txt': Training set.                                                                                             - 'train/y_train.txt': Training labels.                                                                                          
 - 'test/X_test.txt': Test set.                                                                                                   
 - 'test/y_test.txt': Test labels.                                                                                                                        
-for further information see http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip --> features_info.txt and README.TXT           
+for further information see 
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip 
+--> features_info.txt and README.TXT           
                     
-## Result dataset "Tidy_Data.txt"                                                                                                   ==============================                                                                                                                                 
+## Result dataset "Tidy_Data.txt"
+
 This datafile has the following characteristics:                                                                                 
  - The result dataset consists of 68 variables and 180 observations                                                              
  - based on both - the training and the test sets of source files                                                                
  - tidy data set with the average of each variable for each activity and each subject.                                           
  - only the mean (mean())and standard deviation (std()) for each measurement.                                                    
  - with descriptive variable names                                                                                                                                                                                         
-### Some information about the 66 feature variables:                                                                                                                
- - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.                                                         
- - Triaxial Angular velocity from the gyroscope.                                                                                                                  
- - Features are normalized and bounded within [-1,1].                                                                                                             
- - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/sec).                                                            
- - The gyroscope units are rad/sec.                                                                                                                               
+### Some information about the 66 feature variables:                     
+ - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.                        
+ - Triaxial Angular velocity from the gyroscope.
+ - Features are normalized and bounded within [-1,1].                                                                            
+ - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/sec).                           
+ - The gyroscope units are rad/sec.
  - Fast Fourier Transform (FFT) indicates frequency domain signals                                                                                                
                                                                                                                                                                   
 ### Result dataset variables in detail:
