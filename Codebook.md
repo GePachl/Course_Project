@@ -22,24 +22,22 @@ for further information see
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip 
 --> features_info.txt and README.TXT           
                     
-#### Result dataset "Tidy_Data.txt"
-
-This datafile has the following characteristics:                                                                                 
+### Result dataset "Tidy_Data.txt"
+#### This datafile has the following characteristics:                                                                                 
  - The result dataset consists of 68 variables and 180 observations                                                              
  - based on both - the training and the test sets of source files                                                                
  - tidy data set with the average of each variable for each activity and each subject.                                           
  - only the mean (mean())and standard deviation (std()) for each measurement.                                                    
  - with descriptive variable names                                                                                                                                                                                         
-###3 Some information about the 66 feature variables:                     
+#### Some information about the 66 feature variables:                     
  - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.                        
  - Triaxial Angular velocity from the gyroscope.
  - Features are normalized and bounded within [-1,1].                                                                            
  - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/sec).                           
  - The gyroscope units are rad/sec.
- - Fast Fourier Transform (FFT) indicates frequency domain signals                                                                                                
-                                                                                                                                                                  
+ - Fast Fourier Transform (FFT) indicates frequency domain signals                                                                                              
 ### Result dataset variables in detail:
-                 
+####                 
 No  Variable	 		 					  Datatype	Value Range		Unit             
     Description                                                                                                                             
 1   Subject		              					  Integer	1 .. 30                                  
