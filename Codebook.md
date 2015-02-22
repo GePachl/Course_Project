@@ -40,21 +40,18 @@ Some information about the 66 feature variables:
  
 ### Result dataset variables in detail:
                
-No  Variable	 		 					  Datatype	Value Range		Unit             
+No  Variable	 			  				Datatype	Value Range		Unit             
     Description                                                                                                                             
-1   Subject		              					  Integer	1 .. 30                                  
+1   Subject		              					Integer	1 .. 30                                  
     person who performed the activity (30 test persons)	                                                                                   
                                                                                                                                              
-2   Activity 					                                                                                                                     
-    names for 6 activities																					  Factor		WALKING                                                      
-																																							  WALKING                                                      
-																																								WALKING_UPSTAIRS                                             
-																																								WALKING_DOWNSTAIRS                                           
-																																								SITTING                                                      
-																																								STANDING                                                     
-																																								LAYING                                                       
-                                                                                                                                            
-3  	tBodyAcc_Mean_X                                                                                                                          
+2   Activity
+    names for 6 activities																					  Factor			WALKING                                                  									WALKING_UPSTAIRS                   
+											WALKING_DOWNSTAIRS                       
+											SITTING                                  
+											STANDING                                 
+											LAYING                                   
+3  tBodyAcc_Mean_X                                                                                                                          
     mean value - body linear accelaration  - X direction 							 Numeric  -1 ... 1			g                                              
                                                                                                                                              
 4  	tBodyAcc_Mean_Y                                                                                                                          
