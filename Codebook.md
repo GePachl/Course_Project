@@ -1,5 +1,4 @@
 ## CodeBook Tidy`_`Data 
-(based on data of Project Human Activity Recognition Using Smartphones) 
 
 ### Input DataSet Sources                                                                                                        
    
@@ -16,7 +15,9 @@ Purpose of the project - getting detailed information about human activities:
 
 Used input data of the project:   
 - 'features.txt': List of all features.                                                                                          
-- 'activity`_`labels.txt': Links the class labels with their activity name.                                                        
+- 'activity`_`labels.txt': Links the class labels with their activity name.  
+- 'test/subject`_`test.txt': subject ids for the test set   
+- 'train/subject`_`train.txt': subject ids for the training set                                                      
 - 'train/X`_`train.txt': Training set.                                                                                             
 - 'train/y`_`train.txt': Training labels.                                                                                          
 - 'test/X`_`test.txt': Test set.                                                                                                   
