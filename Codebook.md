@@ -1,4 +1,4 @@
-### Codebook Tidy_Data 
+### CodeBook Tidy_Data 
 (based on data of Project Human Activity Recognition Using Smartphones) 
 
 ### Input DataSet Sources                                                                                                        
@@ -39,75 +39,157 @@ Some information about the 66 feature variables:
  - Fast Fourier Transform (FFT) indicates frequency domain signals
  
 ### Result dataset variables in detail:
-               
-No  Variable
-    Description
-    Datatype	
-    Value Range
-    Unit
+            
+No:  1  
+Variable:  Subject   
+Description:  person who performed the activity (30 test persons)  
+Datatype: Integer  
+Value Range:  1 .. 30   
+Unit:
                                                                                                                          
-1   Subject		              					Integer	1 .. 30                                  
-    person who performed the activity (30 test persons)	                                                                                   
+No:  2  
+Variable:  Activity   
+Description:  names for 6 activities  
+Datatype:  Factor  
+Value Range:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING   
+Unit:                                                                               
                                                                                                                                              
-2   Activity
-    names for 6 activities																					  Factor			WALKING                                                  									WALKING_UPSTAIRS                   
-											WALKING_DOWNSTAIRS                       
-											SITTING                                  
-											STANDING                                 
-											LAYING                                   
-3  tBodyAcc_Mean_X                                                                                                                          
-    mean value - body linear accelaration  - X direction 							 Numeric  -1 ... 1			g                                              
+No:  3   
+Variable:  tBodyAcc_Mean_X   
+Description:  mean value - body linear accelaration - X direction  
+Datatype:  Numeric  
+Value Range:  -1 ... 1   
+Unit:  g
+
+No: 4   
+Variable: tBodyAcc_Mean_Y    
+Description: mean value - body linear accelaration - Y direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g   
+                                                                                                                                                                                                                                                     
+No: 5   
+Variable:  tBodyAcc_Mean_Z   
+Description:  mean value - body linear accelaration - Z direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g   
+                                                                                                                                                                                                                                                     
+No: 6   
+Variable: tBodyAcc_Std_X    
+Description: standard deviation -  body linear accelaration - X direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g
+ 
+No:7  	tBodyAcc_Std_Y                                                                                                                           
+Variable: tBodyAcc_Std_Y     
+Description:  standard deviation -  body linear accelaration - Y direction  
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+                                      
+No: 8   
+Variable: tBodyAcc_Std_Z    
+Description: standard deviation -  body linear accelaration - Z direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
+No: 9   
+Variable:  tGravityAcc_Mean_X    
+Description: mean value - gravity linear accelaration  - X direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g                                                                                                                                              
+
+No: 10   
+Variable: tGravityAcc_Mean_Y    
+Description: mean value - gravity linear accelaration  - Y direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
                                                                                                                                              
-4  	tBodyAcc_Mean_Y                                                                                                                          
-    mean value - body linear accelaration  - Y direction               Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-5  	tBodyAcc_Mean_Z          														               Numeric  -1 ... 1   		g                                              
-		mean value - body linear accelaration  - Z direction                                                                                     
-		                                                                                                                                         
-6  	tBodyAcc_Std_X                                                                                                                           
-		standard deviation -  body linear accelaration  - X direction      Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-7  	tBodyAcc_Std_Y                                                                                                                           
-		standard deviation -  body linear accelaration  - Y direction      Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-8  	tBodyAcc_Std_Z                                                                                                                           
-		standard deviation -  body linear accelaration  - Z direction      Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-9  	tGravityAcc_Mean_X                                                                                                                       
-		mean value - gravity linear accelaration  - X direction            Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-10 	tGravityAcc_Mean_Y                                                                                                                       
-		mean value - gravity linear accelaration  - Y direction            Numeric  -1 ... 1   		g                                              
-                                                                                                                                             
-11 	tGravityAcc_Mean_Z        
-		mean value - gravity linear accelaration  - Z direction            Numeric  -1 ... 1   		g             
-                                                                                                                                             
-12 	tGravityAcc_Std_X         
-		standard deviation -  gravity linear accelaration  - X direction   Numeric  -1 ... 1   		g             
-                                                                                                                                             
-13 	tGravityAcc_Std_Y
-    standard deviation -  gravity linear accelaration  - Y direction   Numeric  -1 ... 1   		g             
-                                                                                                                                             
-14 	tGravityAcc_Std_Z         
-		standard deviation -  gravity linear accelaration  - Z direction   Numeric  -1 ... 1   		g             
-                                                                                                                                             
-15 	tBodyAccJerk_Mean_X       
-		mean value - body linear accelaration jerk  - X direction          Numeric  -1 ... 1   		g             
-                                                                                                                                             
-16 	tBodyAccJerk_Mean_Y       
-		mean value - body linear accelaration jerk  - Y direction          Numeric  -1 ... 1   		g             
-                                                                                                                                             
-17 	tBodyAccJerk_Mean_Z       
-		mean value - body linear accelaration jerk  - Z direction          Numeric  -1 ... 1   		g             
+No: 11   
+Variable: tGravityAcc_Mean_Z    
+Description: mean value - gravity linear accelaration  - Z direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g   
+                                                                                                                                           
+No: 12   
+Variable: tGravityAcc_Std_X    
+Description: standard deviation -  gravity linear accelaration  - X direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
+No: 13   
+Variable: tGravityAcc_Std_Y    
+Description: standard deviation -  gravity linear accelaration  - Y direction    
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
+No: 14   
+Variable: tGravityAcc_Std_Z     
+Description: standard deviation -  gravity linear accelaration  - Z direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+    
+No: 15   
+Variable: tBodyAccJerk_Mean_X    
+Description: mean value - body linear accelaration jerk  - X direction  
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
+No: 16   
+Variable: tBodyAccJerk_Mean_Y    
+Description: mean value - body linear accelaration jerk  - Y direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+          
+No: 17   
+Variable: tBodyAccJerk_Mean_Z    
+Description: mean value - body linear accelaration jerk  - Z direction   
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+       
                                                                                                                                              
 18 	tBodyAccJerk_Std_X
-	  standard deviation -  body linear accelaration jerk - X direction  Numeric  -1 ... 1  		g             
+	  standard deviation -  body linear accelaration jerk - X direction  Numeric  -1 ... 1  		g      
+
+No:    
+Variable:     
+Description:    
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g        
                                                                                                                                              
 19 	tBodyAccJerk_Std_Y
     standard deviation -  body linear accelaration jerk - Y direction  Numeric  -1 ... 1   		g             
-                                                                                                                                             
+                     
+                                                                                                                        No:    
+Variable:     
+Description:    
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
 20 	tBodyAccJerk_Std_Z        
-		standard deviation - body linear accelaration jerk - Z direction   Numeric  -1 ... 1   		g             
+		standard deviation - body linear accelaration jerk - Z direction   Numeric  -1 ... 1   		g  
+
+           No:    
+Variable:     
+Description:    
+Datatype: Numeric  
+Value Range: -1 ... 1    
+Unit: g 
+
                                                                                                                                              
 21 	tBodyGyro_Mean_X          
 		mean value - body angular velocity - X direction                   Numeric  -1 ... 1   		rad/sec       
