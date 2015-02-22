@@ -59,4 +59,4 @@ Tidy_Data <- aggregate(Base_Data[,start_col:end_col],  by=data.frame(Subject=Bas
 Tidy_Data <- Tidy_Data %>% arrange(Subject, Activity_ID, Activity) %>% select(-(Activity_ID))
 
 # writing Result DataSet: Tidy_Data.txt (with separator as tabulator)
-write.table(Tidy_Data, file = "C:/Users/Gerhard/Course_Project/Tidy_Data.txt", sep="\t", row.names = FALSE)
+write.table(Tidy_Data, file = "Tidy_Data.txt", sep="\t", row.names = FALSE)
