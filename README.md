@@ -30,7 +30,7 @@ for further information see
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip   
 
 
-### How the program run_analysis.R works.
+### How the program run_analysis.R works
 
 #### Create a new 'Base_Data' data.frame 
 - Load libraries('plyr, dplyr, data.table') for using some specials data manipulation functions like  Filter, Select, Join, Aggregate.
