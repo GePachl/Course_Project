@@ -32,7 +32,7 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 
 ### How the program run_analysis.R works.
 
-#### Creating a new 'Base_Data' data.frame 
+#### Create a new 'Base_Data' data.frame 
 - Load libraries('plyr, dplyr, data.table') for using some specials data manipulation functions like  Filter, Select, Join, Aggregate.
 - Import and merge raw data sets to datasets 'Subjects', 'Activities' and 'Data' by functions read.table and rbind.  
 - Extract only measurements on the mean and standard deviation for each feature.  Read feature names for std() and mean() to find the relevant variables into data.frame 'Features`_`Mean`_`Std' - by function grepl.  
