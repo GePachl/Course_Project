@@ -1,6 +1,6 @@
 #*******************************************************************************************************#
 # Coursera Course Getting and Cleaning Data - Course Project Week 3                                     #
-# progam: analysing of wearable computing    
+# progam: analysing of wearable computing                                                               #
 #*******************************************************************************************************#
 
 ## 1 - Merges the training and the test sets to create one data set.
