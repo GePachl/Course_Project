@@ -50,3 +50,4 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Datas
 
 #### Result: 'Tidy_Data.txt'
 - **transform result dataset with command write.table into file : Tidy_Data.txt (with separator as tabulator)** 
+- for detailed information about the variables take a look into the CodeBook ('Codebook.md') in the same folder.
